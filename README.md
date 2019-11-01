@@ -1,4 +1,4 @@
-# Vowel Reducer
+# Num: Vowel Reducer
 
 Simple REST service that reduces a name to its vowels, and then reduces 
 those vowels to a single digit, associating a single value to each

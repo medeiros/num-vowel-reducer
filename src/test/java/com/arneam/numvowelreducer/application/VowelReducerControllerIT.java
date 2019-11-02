@@ -32,7 +32,7 @@ public class VowelReducerControllerIT {
   @ParameterizedTest
   @CsvSource({"Daniel, 6", "Maria, 2"})
   void shouldReduceNameToNumber(String name, String number) throws Exception {
-    mockMvc.perform(get("/vowel-reducer/" + name)).andExpect(status().isOk())
+    mockMvc.perform(get("/reduce/" + name)).andExpect(status().isOk())
         .andExpect(content().string(containsString(number)));
   }
 

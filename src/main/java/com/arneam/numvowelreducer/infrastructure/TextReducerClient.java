@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(value = "num-text-reducer", fallback = TextReducerFallback.class)
 public interface TextReducerClient {
 
-  @GetMapping(value = "/text-reducer/{name}")
+  @GetMapping(value = "/reduce/{name}")
   int reduceToNumber(@PathVariable String name);
 
 }

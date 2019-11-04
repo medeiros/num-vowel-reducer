@@ -15,7 +15,7 @@ The following table is applied in calculations:
 
 # Example
 
-	GET /vowel-reducer/Daniel
+	GET /reducer/Daniel
 
 calculation: AIE => 191 => 1+9+1 => 15 => 1+5 => 6
 
